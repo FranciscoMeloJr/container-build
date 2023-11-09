@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi
+FROM jboss-eap74-openjdk8-runtime-openshift:7.4.0
 RUN whoami
 RUN id
 RUN $USER
