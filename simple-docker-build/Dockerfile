@@ -1,4 +1,4 @@
-FROM jboss-eap74-openjdk8-runtime-openshift:7.4.0
+FROM registry.redhat.io/jboss-eap-7/eap74-openjdk17-openshift-rhel8
 RUN whoami
 RUN id
 RUN $USER
